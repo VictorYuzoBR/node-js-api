@@ -1,0 +1,21 @@
+{
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5432,
+   "username": "postgres",
+   "password": "umc@2023",
+   "database": "teste",
+   "synchronize": false,
+   "logging": false,
+   "entities": [
+      "src/entities/**/*.ts"
+   ],
+   "migrations": [
+      "src/database/migrations/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entities",
+      "migrationsDir": "src/database/migrations"
+      
+   }
+}
